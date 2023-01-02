@@ -1,0 +1,19 @@
+{
+    "name": "rost/module-tutorial",
+    "description": "N/A",
+    "type": "magento2-module",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "~8.1.0",
+        "../../../../vendor/magento/framework": "^103.0.5",
+        "magento/module-customer": "^103.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Local\\Module\\": ""
+        }
+    }
+}

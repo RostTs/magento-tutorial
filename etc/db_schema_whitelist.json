@@ -1,0 +1,15 @@
+{
+    "module_complaint": {
+        "column": {
+            "id": true,
+            "complaint_text": true,
+            "created_at": true,
+            "updated_at": true,
+            "customer_id": true
+        },
+        "constraint": {
+            "MODULE_COMPLAINT_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID": true,
+            "PRIMARY": true
+        }
+    }
+}
